@@ -1,0 +1,95 @@
+  <!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Sport News</title>
+
+  </head>
+  <body>
+    
+    <header>
+     <div class="navi">
+      
+      <nav>
+        <a class = "logo" href="./index.html"> 
+          <img  src="https://sport.ua/images/menu/logo.svg" alt="sport.ua">
+        </a>
+        
+        <ul class="navbar1">
+          <li><a class="navbar" href="./sites/foot/football.html">Футбол</a></li>
+          <li><a class="navbar" href="./sites/basket/basket.html">Баскетбол</a></li>
+          <li><a class="navbar" href="./sites/voley/voley.html">Волейбол</a></li>
+          <li><a class="navbar" href="https://youtu.be/dQw4w9WgXcQ&t=0m42s">Хокей</a></li>
+          <li><button class="login" onclick="document.getElementById('id01').style.display='block'">Login </button></li>
+        </ul>
+        
+        
+
+        
+        <div id="id01" class="modal">
+          <span onclick="document.getElementById('id01').style.display='none'"
+        class="close" title="Close Modal">&times;</span>         
+            
+          <form class="modal-content animate" action="/action_page.php">
+              <div class="imgcontainer">
+                  <img src="./images/саня.jpg" alt="Avatar" class="avatar">
+              </div>
+
+              <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+
+              <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a class = "psg" href="#">password?</a></span>
+              </div>
+            </form>
+          </div>
+          
+      </nav>
+     </div>
+     
+    </header> 
+    
+    <div class="glava">
+      <h2>Новини спорту</h2>
+      <br>
+      <a href="./sites/foot/dynvsfen.html"><img class="foot" src="./images/photo_2022-09-08_21-40-04.jpg"   height="450" /></a>
+      <h6>Футбол |</h6>
+      <p><a class="news" href="^">Динамо втратило очки в самому кінці матчу проти Фенербахче</a></p>
+    </div>  
+    <div class="glava">
+      <br>
+        <a href="./sites/basket/uavscro.html"><img src="./sites/basket/basket_img/завантаження.jpg" alt="" height="190"></a>
+        <h6>Баскетбол |</h6>
+        <p><a class = "news" href="C:\Users\rozdo\OneDrive\Рабочий стол\sport news\sites\basket\uavscro.html">Збірна України програла останній матч групового етапу проти збірної Хорватії</a></p>
+    </div>
+    <div class="glava">
+      <br>
+      <p><a  href="./sites/voley/uavsslo.html"><img src="./sites/voley/voley_img/slov.jpg" alt="" height="190"></a></p>
+      <h6>Волейбол |</h6>
+      <p><a class="news" href="./sites/voley/uavsslo.html">Збірна України програла матч за вихід до полуфіналу ЧМ проти Словенії</a></p>
+    </div>
+    
+    
+  </body>
+  <footer>
+    <address>
+      <br>
+      <a href="sportua@gmail.com">sportua@gmail.com</a>.<br>
+      <p><span class="nomer">+380967378201</span></p>
+      <p><span class="nomer">+380442323765</span></p>
+    </address>
+  </footer>  
+</html>
